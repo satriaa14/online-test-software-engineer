@@ -22,6 +22,7 @@ var (
 // function for OnlineTestSoftwareEngineer only accepting integer (rows)
 // and return as string, which is return variable are "returningPattern"
 func OnlineTestSoftwareEngineer(rows int) string {
+	returningPattern = ""
 	// Start of Top Triangle
 	for i = 1; i <= rows; i++ {
 		for j = i; j <= rows; j++ {
