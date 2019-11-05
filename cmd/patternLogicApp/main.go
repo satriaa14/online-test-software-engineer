@@ -4,7 +4,7 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/satriaa14/online-test-software-engineer/pkg/patternlogic"
+	patternlogic "github.com/satriaa14/online-test-software-engineer/pkg/patternLogic"
 )
 
 func main() {
