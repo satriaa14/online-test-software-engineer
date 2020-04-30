@@ -11,4 +11,5 @@ func main() {
 	var defaultValue = flag.Int("val", 5, "type your age")
 	flag.Parse()
 	fmt.Print(patternlogic.OnlineTestSoftwareEngineer(*defaultValue))
+	fmt.Println()
 }
